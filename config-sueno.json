@@ -1,0 +1,87 @@
+{
+  "caracteristicas": {
+    "calidad": {
+      "titulo": "🌙 Calidad del sueño",
+      "opciones": {
+        "cal1": { "id": "excelente", "display": "😍 Excelente" },
+        "cal2": { "id": "buena", "display": "😊 Buena" },
+        "cal3": { "id": "normal", "display": "😐 Normal" },
+        "cal4": { "id": "mala", "display": "😕 Mala" },
+        "cal5": { "id": "terrible", "display": "😞 Terrible" }
+      }
+    },
+    "tiempoDormirse": {
+      "titulo": "⏱️ Tiempo para dormirme",
+      "opciones": {
+        "tie1": { "id": "muy_rapido", "display": "⚡ Muy rápido (< 10 min)" },
+        "tie2": { "id": "rapido", "display": "😊 Rápido (10-20 min)" },
+        "tie3": { "id": "normal", "display": "😐 Normal (20-30 min)" },
+        "tie4": { "id": "lento", "display": "😴 Lento (30-60 min)" },
+        "tie5": { "id": "muy_lento", "display": "😫 Muy lento (> 60 min)" }
+      }
+    }
+  },
+  
+  "afirmaciones": {
+    "preDormir": {
+      "titulo": "🌆 Antes de Dormir",
+      "opciones": {
+        "pre1": { "id": "relaje_facilmente", "display": "😌 Me relajé fácilmente" },
+        "pre2": { "id": "tarde_relajarme", "display": "⏳ Tardé en relajarme" },
+        "pre3": { "id": "senti_estres", "display": "😰 Sentí estrés o preocupación" },
+        "pre4": { "id": "tome_algo_caliente", "display": "☕ Tomé algo caliente" },
+        "pre5": { "id": "hice_ejercicio_tarde", "display": "🏃 Hice ejercicio cerca de la hora de dormir" }
+      }
+    },
+    "duranteDormir": {
+      "titulo": "🌙 Durante el Sueño",
+      "opciones": {
+        "dur1": { "id": "dormi_corrido", "display": "😴 Dormí de corrido" },
+        "dur2": { "id": "desperte_1_2_veces", "display": "😐 Me desperté 1-2 veces" },
+        "dur3": { "id": "desperte_varias_veces", "display": "😣 Me desperté varias veces" },
+        "dur4": { "id": "ambiente_ruidoso", "display": "🔊 Ambiente ruidoso" },
+        "dur5": { "id": "temperatura_incomoda", "display": "🌡️ Temperatura incómoda" },
+        "dur6": { "id": "use_tapones_antifaz", "display": "😎 Usé tapones o antifaz" },
+        "dur7": { "id": "dolor_fisico_desperto", "display": "🤕 Dolor físico me despertó" }
+      }
+    },
+    "postDormir": {
+      "titulo": "🌅 Al Despertar",
+      "opciones": {
+        "post1": { "id": "desperte_descansado", "display": "😊 Desperté descansado" },
+        "post2": { "id": "desperte_cansado", "display": "😫 Desperté cansado" },
+        "post3": { "id": "desperte_antes_alarma", "display": "⏰ Desperté antes de la alarma" },
+        "post4": { "id": "costo_levantarme", "display": "😴 Me costó levantarme" },
+        "post5": { "id": "desperte_dolor_corporal", "display": "🤕 Desperté con dolor corporal" },
+        "post6": { "id": "senti_confuso", "display": "😵 Me sentí confuso al despertar" },
+        "post7": { "id": "queria_seguir_durmiendo", "display": "😩 Quería seguir durmiendo" },
+        "post8": { "id": "levante_energia", "display": "⚡ Me levanté con energía" }
+      }
+    },
+    "suenos": {
+      "titulo": "💤 Sueños",
+      "opciones": {
+        "sue1": { "id": "suenos_vividos", "display": "🎨 Tuve sueños vívidos" },
+        "sue2": { "id": "recorde_suenos_claramente", "display": "💭 Recordé mis sueños claramente" },
+        "sue3": { "id": "suenos_confusos_extranos", "display": "🤔 Sueños confusos o extraños" },
+        "sue4": { "id": "pesadillas", "display": "😱 Pesadillas" },
+        "sue5": { "id": "suenos_repetitivos", "display": "🔄 Sueños repetitivos" },
+        "sue6": { "id": "suenos_lucidos", "display": "✨ Sueños lúcidos" },
+        "sue7": { "id": "no_recorde_suenos", "display": "❌ No recordé ningún sueño" },
+        "sue8": { "id": "suenos_relacionados_dia_anterior", "display": "📅 Sueños relacionados con el día anterior" }
+      }
+    }
+  },
+  
+  "distracciones_especificas": {
+    "dis_sue1": { "nombre": "Se cae la almohada", "emoji": "🛏️" },
+    "dis_sue2": { "nombre": "Cama incómoda", "emoji": "🛏️" },
+    "dis_sue3": { "nombre": "Luz ambiental", "emoji": "💡" },
+    "dis_sue4": { "nombre": "Pareja roncando", "emoji": "👤" },
+    "dis_sue5": { "nombre": "Necesidad de ir al baño", "emoji": "🚽" },
+    "dis_sue6": { "nombre": "Sed durante la noche", "emoji": "🥤" },
+    "dis_sue7": { "nombre": "Mucho calor", "emoji": "🥵" },
+    "dis_sue8": { "nombre": "Mucho frio", "emoji": "🥶" },
+    "dis_sue9": { "nombre": "Pareja molestando", "emoji": "😤" }
+  }
+}
